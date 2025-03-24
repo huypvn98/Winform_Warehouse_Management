@@ -6,6 +6,7 @@ using System.Runtime.InteropServices;
 using System.Security;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using Warehouse_Management.Properties;
 
 namespace Warehouse_Management.Utils
@@ -45,6 +46,28 @@ namespace Warehouse_Management.Utils
                 return null;
             }
             return Uri.EscapeDataString(str);
+        }
+
+        public static Control FindFocusedControl(Control control)
+        {
+            for (IContainerControl containerControl = control as IContainerControl; containerControl != null; containerControl = control as IContainerControl)
+            {
+                control = containerControl.ActiveControl;
+            }
+            return control;
+        }
+        public static bool IsTamLuoi(string unit)
+        {
+            if (!CompareUpper(unit, "KG"))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public static bool CompareUpper(string s1, string s2)
+        {
+            return s1?.ToUpper() == s2?.ToUpper();
         }
 
         //public static bool ExceptionLog(Exception ex)

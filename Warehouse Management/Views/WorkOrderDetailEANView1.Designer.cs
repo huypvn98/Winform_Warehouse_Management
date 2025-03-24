@@ -51,17 +51,17 @@ namespace Warehouse_Management.Views
             this.label31 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.chkSavePrintAuto_Cuon = new System.Windows.Forms.CheckBox();
-            this.btnCloseOrder = new Button();
-            this.btnCancel = new Button();
+            this.btnCloseOrder = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.dtpTransactionDate = new System.Windows.Forms.DateTimePicker();
             this.tbOrderCode = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.btnExportExcel = new Button();
-            this.btnReturnKien = new Button();
-            this.btnDeleteKien = new Button();
-            this.btnClosePackage = new Button();
-            this.btnOpenPackage = new Button();
-            this.btnPrintKien = new Button();
+            this.btnExportExcel = new System.Windows.Forms.Button();
+            this.btnReturnKien = new System.Windows.Forms.Button();
+            this.btnDeleteKien = new System.Windows.Forms.Button();
+            this.btnClosePackage = new System.Windows.Forms.Button();
+            this.btnOpenPackage = new System.Windows.Forms.Button();
+            this.btnPrintKien = new System.Windows.Forms.Button();
             this.label15 = new System.Windows.Forms.Label();
             this.dgWIPItem = new System.Windows.Forms.DataGridView();
             this.colWItem_MaThanhPhan = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -92,12 +92,12 @@ namespace Warehouse_Management.Views
             this.label36 = new System.Windows.Forms.Label();
             this.lblKien_TotalOuter = new System.Windows.Forms.Label();
             this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
-            this.btnInnerPrint = new Button();
-            this.btnInnerClose = new Button();
-            this.btnOuterDelete = new Button();
-            this.btnOuterClose = new Button();
-            this.btnInnerDelete = new Button();
-            this.btnOuterPrint = new Button();
+            this.btnInnerPrint = new System.Windows.Forms.Button();
+            this.btnInnerClose = new System.Windows.Forms.Button();
+            this.btnOuterDelete = new System.Windows.Forms.Button();
+            this.btnOuterClose = new System.Windows.Forms.Button();
+            this.btnInnerDelete = new System.Windows.Forms.Button();
+            this.btnOuterPrint = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
             this.lblTotalKien = new System.Windows.Forms.Label();
@@ -204,8 +204,8 @@ namespace Warehouse_Management.Views
             // 
             // tableLayoutPanel3
             // 
-            this.tableLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.tableLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel3.ColumnCount = 9;
             this.tableLayoutPanel1.SetColumnSpan(this.tableLayoutPanel3, 2);
@@ -269,7 +269,6 @@ namespace Warehouse_Management.Views
             this.chkSavePrintAuto_Cuon.Text = "Tự động lưu và in nhãn cuộn sau khi đọc cân";
             this.chkSavePrintAuto_Cuon.UseVisualStyleBackColor = true;
             this.chkSavePrintAuto_Cuon.Visible = false;
-            //this.chkSavePrintAuto_Cuon.CheckedChanged += new System.EventHandler(this.chkSavePrintAuto_Cuon_CheckedChanged);
             // 
             // btnCloseOrder
             // 
@@ -283,7 +282,6 @@ namespace Warehouse_Management.Views
             this.btnCloseOrder.TabIndex = 18;
             this.btnCloseOrder.Text = "Hoàn tất";
             this.btnCloseOrder.UseVisualStyleBackColor = false;
-            //this.btnCloseOrder.Click += new System.EventHandler(this.btnCloseOrder_Click);
             // 
             // btnCancel
             // 
@@ -298,12 +296,11 @@ namespace Warehouse_Management.Views
             this.btnCancel.TabIndex = 19;
             this.btnCancel.Text = "Close";
             this.btnCancel.UseVisualStyleBackColor = false;
-            //this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // dtpTransactionDate
             // 
-            this.dtpTransactionDate.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.dtpTransactionDate.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dtpTransactionDate.CustomFormat = "dd/MM/yyyy HH:mm";
             this.dtpTransactionDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -315,7 +312,7 @@ namespace Warehouse_Management.Views
             // 
             // tbOrderCode
             // 
-            this.tbOrderCode.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.tbOrderCode.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbOrderCode.BackColor = System.Drawing.SystemColors.Control;
             this.tableLayoutPanel2.SetColumnSpan(this.tbOrderCode, 3);
@@ -330,7 +327,7 @@ namespace Warehouse_Management.Views
             // 
             // tableLayoutPanel4
             // 
-            this.tableLayoutPanel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.tableLayoutPanel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel4.ColumnCount = 9;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
@@ -368,7 +365,6 @@ namespace Warehouse_Management.Views
             this.btnExportExcel.TabIndex = 12;
             this.btnExportExcel.Text = "Xuất excel";
             this.btnExportExcel.UseVisualStyleBackColor = false;
-            //this.btnExportExcel.Click += new System.EventHandler(this.btnExportExcel_Click);
             // 
             // btnReturnKien
             // 
@@ -383,7 +379,6 @@ namespace Warehouse_Management.Views
             this.btnReturnKien.TabIndex = 11;
             this.btnReturnKien.Text = "Return kiện";
             this.btnReturnKien.UseVisualStyleBackColor = false;
-            //this.btnReturnKien.Click += new System.EventHandler(this.btnReturnKien_Click);
             // 
             // btnDeleteKien
             // 
@@ -398,7 +393,6 @@ namespace Warehouse_Management.Views
             this.btnDeleteKien.TabIndex = 10;
             this.btnDeleteKien.Text = "Xóa kiện";
             this.btnDeleteKien.UseVisualStyleBackColor = false;
-            //this.btnDeleteKien.Click += new System.EventHandler(this.btnDeleteKien_Click);
             // 
             // btnClosePackage
             // 
@@ -413,7 +407,6 @@ namespace Warehouse_Management.Views
             this.btnClosePackage.TabIndex = 6;
             this.btnClosePackage.Text = "Dừng cân";
             this.btnClosePackage.UseVisualStyleBackColor = false;
-            //this.btnClosePackage.Click += new System.EventHandler(this.btnClosePackage_Click);
             // 
             // btnOpenPackage
             // 
@@ -427,7 +420,6 @@ namespace Warehouse_Management.Views
             this.btnOpenPackage.TabIndex = 5;
             this.btnOpenPackage.Text = "Mở cân";
             this.btnOpenPackage.UseVisualStyleBackColor = false;
-            //this.btnOpenPackage.Click += new System.EventHandler(this.btnOpenPackage_Click);
             // 
             // btnPrintKien
             // 
@@ -442,7 +434,6 @@ namespace Warehouse_Management.Views
             this.btnPrintKien.TabIndex = 7;
             this.btnPrintKien.Text = "In kiện";
             this.btnPrintKien.UseVisualStyleBackColor = false;
-            //this.btnPrintKien.Click += new System.EventHandler(this.btnPrintKien_Click);
             // 
             // label15
             // 
@@ -463,8 +454,8 @@ namespace Warehouse_Management.Views
             this.dgWIPItem.AllowUserToDeleteRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dgWIPItem.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgWIPItem.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.dgWIPItem.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
@@ -539,8 +530,8 @@ namespace Warehouse_Management.Views
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel2.ColumnCount = 4;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
@@ -591,8 +582,8 @@ namespace Warehouse_Management.Views
             // 
             // tbPONumber
             // 
-            this.tbPONumber.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.tbPONumber.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbPONumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbPONumber.Location = new System.Drawing.Point(594, 16);
@@ -605,8 +596,8 @@ namespace Warehouse_Management.Views
             // 
             // tbSoKgKeHoach
             // 
-            this.tbSoKgKeHoach.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.tbSoKgKeHoach.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbSoKgKeHoach.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbSoKgKeHoach.Location = new System.Drawing.Point(0, 108);
@@ -630,8 +621,8 @@ namespace Warehouse_Management.Views
             // 
             // tbSoKgCanThucHien
             // 
-            this.tbSoKgCanThucHien.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.tbSoKgCanThucHien.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbSoKgCanThucHien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbSoKgCanThucHien.Location = new System.Drawing.Point(200, 108);
@@ -655,8 +646,8 @@ namespace Warehouse_Management.Views
             // 
             // tbTolerance
             // 
-            this.tbTolerance.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.tbTolerance.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbTolerance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbTolerance.Location = new System.Drawing.Point(397, 108);
@@ -691,8 +682,8 @@ namespace Warehouse_Management.Views
             // 
             // tbUnit
             // 
-            this.tbUnit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.tbUnit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbUnit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbUnit.Location = new System.Drawing.Point(594, 108);
@@ -705,8 +696,8 @@ namespace Warehouse_Management.Views
             // 
             // tbMaThanhPham
             // 
-            this.tbMaThanhPham.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.tbMaThanhPham.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbMaThanhPham.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbMaThanhPham.Location = new System.Drawing.Point(0, 62);
@@ -730,8 +721,8 @@ namespace Warehouse_Management.Views
             // 
             // tbTenThanhPham
             // 
-            this.tbTenThanhPham.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.tbTenThanhPham.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel2.SetColumnSpan(this.tbTenThanhPham, 3);
             this.tbTenThanhPham.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -886,7 +877,7 @@ namespace Warehouse_Management.Views
             // 
             // tableLayoutPanel9
             // 
-            this.tableLayoutPanel9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.tableLayoutPanel9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel9.ColumnCount = 9;
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
@@ -924,7 +915,6 @@ namespace Warehouse_Management.Views
             this.btnInnerPrint.TabIndex = 13;
             this.btnInnerPrint.Text = "In inner";
             this.btnInnerPrint.UseVisualStyleBackColor = false;
-            //this.btnInnerPrint.Click += new System.EventHandler(this.btnInnerPrint_Click);
             // 
             // btnInnerClose
             // 
@@ -939,7 +929,6 @@ namespace Warehouse_Management.Views
             this.btnInnerClose.TabIndex = 12;
             this.btnInnerClose.Text = "Đóng inner";
             this.btnInnerClose.UseVisualStyleBackColor = false;
-            //this.btnInnerClose.Click += new System.EventHandler(this.btnInnerClose_Click);
             // 
             // btnOuterDelete
             // 
@@ -954,7 +943,6 @@ namespace Warehouse_Management.Views
             this.btnOuterDelete.TabIndex = 14;
             this.btnOuterDelete.Text = "Xóa outer";
             this.btnOuterDelete.UseVisualStyleBackColor = false;
-            //this.btnOuterDelete.Click += new System.EventHandler(this.btnOuterDelete_Click);
             // 
             // btnOuterClose
             // 
@@ -969,7 +957,6 @@ namespace Warehouse_Management.Views
             this.btnOuterClose.TabIndex = 15;
             this.btnOuterClose.Text = "Đóng outer";
             this.btnOuterClose.UseVisualStyleBackColor = false;
-            //this.btnOuterClose.Click += new System.EventHandler(this.btnOuterClose_Click);
             // 
             // btnInnerDelete
             // 
@@ -983,7 +970,6 @@ namespace Warehouse_Management.Views
             this.btnInnerDelete.TabIndex = 11;
             this.btnInnerDelete.Text = "Xóa inner";
             this.btnInnerDelete.UseVisualStyleBackColor = false;
-            //this.btnInnerDelete.Click += new System.EventHandler(this.btnInnerDelete_Click);
             // 
             // btnOuterPrint
             // 
@@ -998,7 +984,6 @@ namespace Warehouse_Management.Views
             this.btnOuterPrint.TabIndex = 16;
             this.btnOuterPrint.Text = "In outer";
             this.btnOuterPrint.UseVisualStyleBackColor = false;
-            //this.btnOuterPrint.Click += new System.EventHandler(this.btnOuterPrint_Click);
             // 
             // textBox2
             // 
@@ -1009,7 +994,6 @@ namespace Warehouse_Management.Views
             this.textBox2.TabIndex = 35;
             this.textBox2.Text = "20";
             this.textBox2.Visible = false;
-            //this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
             // tableLayoutPanel8
             // 
@@ -1111,8 +1095,8 @@ namespace Warehouse_Management.Views
             this.dgKien.AllowUserToDeleteRows = false;
             dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dgKien.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
-            this.dgKien.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.dgKien.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
@@ -1151,7 +1135,6 @@ namespace Warehouse_Management.Views
             this.dgKien.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgKien.Size = new System.Drawing.Size(1579, 339);
             this.dgKien.TabIndex = 10;
-            //this.dgKien.SelectionChanged += new System.EventHandler(this.dgKien_SelectionChanged);
             // 
             // colCP_Status
             // 
@@ -1256,8 +1239,8 @@ namespace Warehouse_Management.Views
             // 
             // tlpPackageCurrent
             // 
-            this.tlpPackageCurrent.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.tlpPackageCurrent.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tlpPackageCurrent.ColumnCount = 4;
             this.tlpPackageCurrent.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
@@ -1295,8 +1278,8 @@ namespace Warehouse_Management.Views
             // 
             // tableLayoutPanel5
             // 
-            this.tableLayoutPanel5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.tableLayoutPanel5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel5.ColumnCount = 4;
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
@@ -1333,7 +1316,7 @@ namespace Warehouse_Management.Views
             // 
             // textBox1
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.Red;
@@ -1347,8 +1330,8 @@ namespace Warehouse_Management.Views
             // 
             // textBox3
             // 
-            this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.Location = new System.Drawing.Point(99, 16);
@@ -1382,8 +1365,8 @@ namespace Warehouse_Management.Views
             // 
             // textBox4
             // 
-            this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.Location = new System.Drawing.Point(0, 16);
@@ -1407,7 +1390,7 @@ namespace Warehouse_Management.Views
             // 
             // textBox5
             // 
-            this.textBox5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.textBox5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox5.Location = new System.Drawing.Point(51, 58);
@@ -1420,7 +1403,7 @@ namespace Warehouse_Management.Views
             // 
             // textBox6
             // 
-            this.textBox6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.textBox6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox6.Location = new System.Drawing.Point(147, 58);
@@ -1455,7 +1438,7 @@ namespace Warehouse_Management.Views
             // 
             // textBox7
             // 
-            this.textBox7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.textBox7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox7.Location = new System.Drawing.Point(0, 58);
@@ -1468,7 +1451,7 @@ namespace Warehouse_Management.Views
             // 
             // textBox8
             // 
-            this.textBox8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.textBox8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox8.ForeColor = System.Drawing.Color.Red;
@@ -1505,7 +1488,7 @@ namespace Warehouse_Management.Views
             // 
             // textBox9
             // 
-            this.textBox9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.textBox9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox9.Location = new System.Drawing.Point(51, 16);
@@ -1529,7 +1512,7 @@ namespace Warehouse_Management.Views
             // 
             // tbWeighReading
             // 
-            this.tbWeighReading.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.tbWeighReading.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbWeighReading.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbWeighReading.ForeColor = System.Drawing.Color.Red;
@@ -1540,14 +1523,11 @@ namespace Warehouse_Management.Views
             this.tbWeighReading.Size = new System.Drawing.Size(194, 22);
             this.tbWeighReading.TabIndex = 30;
             this.tbWeighReading.Text = "0.0";
-            //this.tbWeighReading.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbWeighReading_KeyPress);
-            //this.tbWeighReading.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.tbWeighReading_PreviewKeyDown);
-            //this.tbWeighReading.Validating += new System.ComponentModel.CancelEventHandler(this.tbWeighReading_Validating);
             // 
             // tbCPSoKienSX
             // 
-            this.tbCPSoKienSX.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.tbCPSoKienSX.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbCPSoKienSX.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbCPSoKienSX.Location = new System.Drawing.Point(397, 16);
@@ -1556,7 +1536,6 @@ namespace Warehouse_Management.Views
             this.tbCPSoKienSX.ReadOnly = true;
             this.tbCPSoKienSX.Size = new System.Drawing.Size(191, 22);
             this.tbCPSoKienSX.TabIndex = 4;
-            //this.tbCPSoKienSX.TextChanged += new System.EventHandler(this.tbCPSoKienSX_TextChanged);
             // 
             // label3
             // 
@@ -1582,8 +1561,8 @@ namespace Warehouse_Management.Views
             // 
             // tbCPMaKien
             // 
-            this.tbCPMaKien.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.tbCPMaKien.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbCPMaKien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbCPMaKien.Location = new System.Drawing.Point(0, 16);
@@ -1607,7 +1586,7 @@ namespace Warehouse_Management.Views
             // 
             // tbCPSoKgBaoBi
             // 
-            this.tbCPSoKgBaoBi.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.tbCPSoKgBaoBi.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbCPSoKgBaoBi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbCPSoKgBaoBi.Location = new System.Drawing.Point(200, 58);
@@ -1620,7 +1599,7 @@ namespace Warehouse_Management.Views
             // 
             // tbCPSoKgTruBaoBi
             // 
-            this.tbCPSoKgTruBaoBi.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.tbCPSoKgTruBaoBi.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbCPSoKgTruBaoBi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbCPSoKgTruBaoBi.Location = new System.Drawing.Point(594, 58);
@@ -1655,7 +1634,7 @@ namespace Warehouse_Management.Views
             // 
             // tbCPSoKgChuan
             // 
-            this.tbCPSoKgChuan.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.tbCPSoKgChuan.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbCPSoKgChuan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbCPSoKgChuan.Location = new System.Drawing.Point(0, 58);
@@ -1668,7 +1647,7 @@ namespace Warehouse_Management.Views
             // 
             // tbCPSoKgThucTe
             // 
-            this.tbCPSoKgThucTe.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.tbCPSoKgThucTe.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbCPSoKgThucTe.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbCPSoKgThucTe.ForeColor = System.Drawing.Color.Red;
@@ -1680,9 +1659,6 @@ namespace Warehouse_Management.Views
             this.tbCPSoKgThucTe.TabIndex = 4;
             this.tbCPSoKgThucTe.TabStop = false;
             this.tbCPSoKgThucTe.Text = "0.0";
-            //this.tbCPSoKgThucTe.TextChanged += new System.EventHandler(this.tbCPSoKgThucTe_TextChanged);
-            //this.tbCPSoKgThucTe.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbCPSoKgThucTe_KeyPress);
-            //this.tbCPSoKgThucTe.Validating += new System.ComponentModel.CancelEventHandler(this.tbCPSoKgThucTe_Validating);
             // 
             // lblKien_SoKgGop
             // 
@@ -1708,7 +1684,7 @@ namespace Warehouse_Management.Views
             // 
             // tbCPSoCuonChuan
             // 
-            this.tbCPSoCuonChuan.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.tbCPSoCuonChuan.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbCPSoCuonChuan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbCPSoCuonChuan.Location = new System.Drawing.Point(200, 16);
@@ -1732,8 +1708,8 @@ namespace Warehouse_Management.Views
             // 
             // tableLayoutPanel6
             // 
-            this.tableLayoutPanel6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.tableLayoutPanel6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel6.ColumnCount = 4;
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
@@ -1761,8 +1737,8 @@ namespace Warehouse_Management.Views
             // 
             // tableLayoutPanel7
             // 
-            this.tableLayoutPanel7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.tableLayoutPanel7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel7.ColumnCount = 4;
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
@@ -1799,7 +1775,7 @@ namespace Warehouse_Management.Views
             // 
             // textBox10
             // 
-            this.textBox10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.textBox10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox10.ForeColor = System.Drawing.Color.Red;
@@ -1813,8 +1789,8 @@ namespace Warehouse_Management.Views
             // 
             // textBox11
             // 
-            this.textBox11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.textBox11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox11.Location = new System.Drawing.Point(99, 16);
@@ -1848,8 +1824,8 @@ namespace Warehouse_Management.Views
             // 
             // textBox12
             // 
-            this.textBox12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.textBox12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox12.Location = new System.Drawing.Point(0, 16);
@@ -1873,7 +1849,7 @@ namespace Warehouse_Management.Views
             // 
             // textBox13
             // 
-            this.textBox13.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.textBox13.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox13.Location = new System.Drawing.Point(51, 58);
@@ -1886,7 +1862,7 @@ namespace Warehouse_Management.Views
             // 
             // textBox14
             // 
-            this.textBox14.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.textBox14.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox14.Location = new System.Drawing.Point(147, 58);
@@ -1921,7 +1897,7 @@ namespace Warehouse_Management.Views
             // 
             // textBox15
             // 
-            this.textBox15.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.textBox15.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox15.Location = new System.Drawing.Point(0, 58);
@@ -1934,7 +1910,7 @@ namespace Warehouse_Management.Views
             // 
             // textBox16
             // 
-            this.textBox16.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.textBox16.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox16.ForeColor = System.Drawing.Color.Red;
@@ -1971,7 +1947,7 @@ namespace Warehouse_Management.Views
             // 
             // textBox17
             // 
-            this.textBox17.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.textBox17.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox17.Location = new System.Drawing.Point(51, 16);
@@ -1995,8 +1971,8 @@ namespace Warehouse_Management.Views
             // 
             // tbCP_SpecInner
             // 
-            this.tbCP_SpecInner.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.tbCP_SpecInner.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbCP_SpecInner.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbCP_SpecInner.Location = new System.Drawing.Point(397, 16);
@@ -2030,8 +2006,8 @@ namespace Warehouse_Management.Views
             // 
             // tbCP_EAN
             // 
-            this.tbCP_EAN.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.tbCP_EAN.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbCP_EAN.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbCP_EAN.Location = new System.Drawing.Point(3, 16);
@@ -2044,7 +2020,7 @@ namespace Warehouse_Management.Views
             // 
             // tbCP_SpecOuter
             // 
-            this.tbCP_SpecOuter.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.tbCP_SpecOuter.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbCP_SpecOuter.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbCP_SpecOuter.Location = new System.Drawing.Point(200, 16);
@@ -2183,13 +2159,13 @@ namespace Warehouse_Management.Views
             this.dataGridViewTextBoxColumn11.ReadOnly = true;
             this.dataGridViewTextBoxColumn11.Width = 125;
             // 
-            // WorkOrderDetailEANView
+            // WorkOrderDetailEANView1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Name = "WorkOrderDetailEANView";
+            this.Name = "WorkOrderDetailEANView1";
             this.Size = new System.Drawing.Size(1582, 744);
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
