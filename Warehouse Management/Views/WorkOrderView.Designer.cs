@@ -1,4 +1,5 @@
 ﻿using System.Windows.Forms;
+using Warehouse_Management.Properties;
 using WarehouseManagement.Control;
 
 namespace Warehouse_Management.Views
@@ -237,9 +238,9 @@ namespace Warehouse_Management.Views
             this.dgWIP.Size = new System.Drawing.Size(1290, 338);
             this.dgWIP.TabIndex = 15;
             this.dgWIP.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(dgWIP_CellDoubleClick);
-            this.dgWIP.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(dgWIP_CellPainting);
-            this.dgWIP.Sorted += new System.EventHandler(dgWIP_Sorted);
-            this.dgWIP.KeyDown += new System.Windows.Forms.KeyEventHandler(dgWIP_KeyDown);
+            //this.dgWIP.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(dgWIP_CellPainting);
+            //this.dgWIP.Sorted += new System.EventHandler(dgWIP_Sorted);
+            //this.dgWIP.KeyDown += new System.Windows.Forms.KeyEventHandler(dgWIP_KeyDown);
             this.colStatus.DataPropertyName = "Status";
             this.colStatus.HeaderText = "Tình trạng";
             this.colStatus.Name = "colStatus";
@@ -376,12 +377,12 @@ namespace Warehouse_Management.Views
             this.dgWIPDetail.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgWIPDetail.Size = new System.Drawing.Size(1290, 318);
             this.dgWIPDetail.TabIndex = 17;
-            this.dgWIPDetail.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(dgWIPDetail_CellContentClick);
+            //this.dgWIPDetail.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(dgWIPDetail_CellContentClick);
             this.dgWIPDetail.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(dgWIPDetail_CellDoubleClick);
-            this.dgWIPDetail.CellMouseEnter += new System.Windows.Forms.DataGridViewCellEventHandler(dgWIPDetail_CellMouseEnter);
-            this.dgWIPDetail.CellMouseLeave += new System.Windows.Forms.DataGridViewCellEventHandler(dgWIPDetail_CellMouseLeave);
-            this.dgWIPDetail.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(dgWIPDetail_CellPainting);
-            this.dgWIPDetail.KeyDown += new System.Windows.Forms.KeyEventHandler(dgWIPDetail_KeyDown);
+            //this.dgWIPDetail.CellMouseEnter += new System.Windows.Forms.DataGridViewCellEventHandler(dgWIPDetail_CellMouseEnter);
+            //this.dgWIPDetail.CellMouseLeave += new System.Windows.Forms.DataGridViewCellEventHandler(dgWIPDetail_CellMouseLeave);
+            //this.dgWIPDetail.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(dgWIPDetail_CellPainting);
+            //this.dgWIPDetail.KeyDown += new System.Windows.Forms.KeyEventHandler(dgWIPDetail_KeyDown);
             this.splitContainer1.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
             this.splitContainer1.Location = new System.Drawing.Point(4, 82);
             this.splitContainer1.Name = "splitContainer1";
@@ -407,7 +408,7 @@ namespace Warehouse_Management.Views
             this.tableLayoutPanel1.Size = new System.Drawing.Size(159, 22);
             this.tableLayoutPanel1.TabIndex = 18;
             this.btnSearch.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.btnSearch.BackgroundImage = SIAM.QRCode.Factory.Properties.Resources.search_icon;
+            this.btnSearch.BackgroundImage = Resources.search_icon;
             this.btnSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 9f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
@@ -427,7 +428,7 @@ namespace Warehouse_Management.Views
             this.tbSearch.Name = "tbSearch";
             this.tbSearch.Size = new System.Drawing.Size(132, 22);
             this.tbSearch.TabIndex = 12;
-            this.tbSearch.KeyPress += new System.Windows.Forms.KeyPressEventHandler(tbSearch_KeyPress);
+            //this.tbSearch.KeyPress += new System.Windows.Forms.KeyPressEventHandler(tbSearch_KeyPress);
             this.dataGridViewTextBoxColumn1.DataPropertyName = "Status";
             this.dataGridViewTextBoxColumn1.HeaderText = "Tình trạng";
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
@@ -632,7 +633,7 @@ namespace Warehouse_Management.Views
             this.btnLoad.Text = "Load";
             this.btnLoad.UseMnemonic = false;
             this.btnLoad.UseVisualStyleBackColor = false;
-            this.btnLoad.Click += new System.EventHandler(btnLoad_Click);
+            //this.btnLoad.Click += new System.EventHandler(btnLoad_Click);
             this.btnLoadDefault.BackColor = System.Drawing.Color.CornflowerBlue;
             this.btnLoadDefault.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnLoadDefault.Font = new System.Drawing.Font("Microsoft Sans Serif", 9f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);

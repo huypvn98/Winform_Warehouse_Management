@@ -17,6 +17,9 @@ namespace Warehouse_Management.Views
         private SortableList<WIP> _wips;
         public Control FocusedControl { get; private set; }
         public WorkOrderDetailView WODetailView { get; set; }
+        public WorkOrderDetailEANView1 WODetailEANView { get; set; }
+        public bool ClosedWip { get; set; }
+
 
         public WorkOrderView()
         {

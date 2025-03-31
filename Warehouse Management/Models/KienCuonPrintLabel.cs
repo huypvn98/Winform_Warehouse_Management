@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Warehouse_Management.Models
+{
+    public class KienCuonPrintLabel : KienPrintLabel
+    {
+        public string MaCuon { get; set; }
+
+        public string Barcode { get; set; }
+    }
+}

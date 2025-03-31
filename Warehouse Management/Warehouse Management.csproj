@@ -53,18 +53,28 @@
   <ItemGroup>
     <Compile Include="Models\ErrorResponse.cs" />
     <Compile Include="Models\FACTORY.cs" />
+    <Compile Include="Models\ItemPrint.cs" />
+    <Compile Include="Models\KienCuonPrintLabel.cs" />
+    <Compile Include="Models\KienPrintLabel.cs" />
     <Compile Include="Models\ORGANIZATION.cs" />
     <Compile Include="Models\OrgResp.cs" />
+    <Compile Include="Models\PackageReq.cs" />
     <Compile Include="Models\PermissionUser.cs" />
     <Compile Include="Models\PrintLabelTemplate.cs" />
     <Compile Include="Models\Response.cs" />
     <Compile Include="Models\Warehouse.cs" />
     <Compile Include="Models\WIP.cs" />
+    <Compile Include="Models\WIPDetail.cs" />
+    <Compile Include="Models\WIP_CUON.cs" />
+    <Compile Include="Models\WIP_ITEM.cs" />
+    <Compile Include="Models\WIP_KIEN.cs" />
+    <Compile Include="Models\WIP_KIEN_SEARCH.cs" />
     <Compile Include="Services\FactoryService.cs" />
     <Compile Include="Services\LoginService.cs" />
     <Compile Include="Services\ServiceBase.cs" />
     <Compile Include="Services\VoucherService.cs" />
     <Compile Include="Services\WarehouseService.cs" />
+    <Compile Include="Services\WorkOrderService.cs" />
     <Compile Include="Shell.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,10 +89,15 @@
     <Compile Include="ucHeader.Designer.cs">
       <DependentUpon>ucHeader.cs</DependentUpon>
     </Compile>
+    <Compile Include="Utils\COMPort.cs" />
+    <Compile Include="Utils\COMPortBase.cs" />
+    <Compile Include="Utils\EANType.cs" />
+    <Compile Include="Utils\EWeighing.cs" />
     <Compile Include="Utils\GlobalSetting.cs" />
     <Compile Include="Utils\Helper.cs" />
     <Compile Include="Utils\KindOfScreens.cs" />
     <Compile Include="Utils\NotifyPropertyChanged.cs" />
+    <Compile Include="Utils\PowerScan9500.cs" />
     <Compile Include="Utils\SortableList.cs" />
     <Compile Include="Views\LoginView.cs">
       <SubType>Form</SubType>

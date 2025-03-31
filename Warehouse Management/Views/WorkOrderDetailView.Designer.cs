@@ -1,4 +1,6 @@
-﻿namespace Warehouse_Management.Views
+﻿using System.Windows.Forms;
+
+namespace Warehouse_Management.Views
 {
     partial class WorkOrderDetailView
     {
@@ -1713,5 +1715,10 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label8;
+        private Label lblTotalCuon;
+        private Label lblCuon_TotalKgThucTe;
+        private Label lblCuon_TotalKgBaoBi;
+        private DataGridView dgCuon;
+
     }
 }

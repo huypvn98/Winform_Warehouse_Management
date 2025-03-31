@@ -124,5 +124,52 @@ namespace Warehouse_Management.Services
             response2.Message = (await response.Content.ReadAsAsync<ErrorResponse>())?.Message;
             return response2;
         }
+
+        protected async Task<T> Post<T, K>(string uri, K obj)
+        {
+            _ = 1;
+            try
+            {
+                IsExpiredToken().Wait();
+                using (HttpClient client = CreateHttpClient())
+                {
+                    HttpResponseMessage httpResponseMessage = await client.PostAsJsonAsync(uri, obj);
+                    if (httpResponseMessage.IsSuccessStatusCode)
+                    {
+                        return await httpResponseMessage.Content.ReadAsAsync<T>();
+                    }
+                }    
+
+            }
+            catch (Exception ex)
+            {
+                if (!Helper.ExceptionLog(ex))
+                {
+                    return default(T);
+                }
+            }
+            return default(T);
+        }
+        protected async Task<Response<T>> PostResp<T, K>(string uri, K obj)
+        {
+            _ = 1;
+            try
+            {
+                IsExpiredToken().Wait();
+                using (HttpClient client = CreateHttpClient())
+                {
+                    return await ConvertResponse<T>(await client.PostAsJsonAsync(uri, obj));
+                }
+            }
+            catch (Exception ex)
+            {
+                if (!Helper.ExceptionLog(ex))
+                {
+                    return null;
+                }
+            }
+            return null;
+        }
+
     }
 }
